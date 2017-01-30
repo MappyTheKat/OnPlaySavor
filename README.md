@@ -13,3 +13,6 @@ Unity Editor Script : Autosave On Play
 * 참 쉽죠?
 * 물론 추가로 편집을 하셔도 됩니다
 * Windows/OnPlaySavor 메뉴를 열면 자동저장 모드를 끄거나 켤 수 있습니다.
+
+## FYI
+* 팀프로젝트에서 에디터 스크립트를 마구 추가하면 다른 멤버들에게 피해를 줄 수 있으므로 버전관리에서 ignore은 꼭 해줍시다
