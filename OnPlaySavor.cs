@@ -18,17 +18,12 @@ static class OnPlaySavor
         EditorWindow.GetWindow(typeof(OnPlaySavorWindow));
     }
 
-    // Constructor이 두번 불리는 기이한 현상이 있어서...
-    private static bool isInitialized = false;
     static OnPlaySavor()
     {
-        if (!isInitialized)
-        {
-            isInitialized = true;
-            EditorApplication.playmodeStateChanged += OnPlayModeChanged;
-            // 뭐 False 일 리는 없겠지만
-            Debug.Log("OnPlaySavor Launched : OnPlaySavorMode " + (SaveOnPlay ? "On" : "Off"));
-        }
+        EditorApplication.playmodeStateChanged += OnPlayModeChanged;
+        // 뭐 False 일 리는 없겠지만
+        // 여러번 불리는 현상이 있는데 동작 자체는 문제없음 : 플레이 할때마다 Load를 전부 다시 해서 벌어지는 문제로 보임
+        Debug.Log("OnPlaySavor Launched : OnPlaySavorMode " + (SaveOnPlay ? "On" : "Off"));
     }
 
     public static bool SaveOnPlay = true;
