@@ -9,7 +9,7 @@ Unity Editor Script : Autosave On Play
 
 ## Usage
 * 유니티 5.5 기준으로 동작하는 Script입니다. 타 버전에서의 동작은 보증하지 않습니다.
-* Assets/Editor 폴더에 이 스크립트 파일을 복사합니다.
+* Assets/Editor 폴더에 OnPlaySavor.cs 파일을 복사합니다.
 * 참 쉽죠?
 * 물론 추가로 편집을 하셔도 됩니다
 * Windows/OnPlaySavor 메뉴를 열면 자동저장 모드를 끄거나 켤 수 있습니다.
