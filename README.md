@@ -1,4 +1,4 @@
-# OnPlaySavor v0.1
+# OnPlaySavor v 0.1
 Unity Editor Script : Autosave On Play
 
 ![Could not save my wife.](http://shitclub.snucse.org/savewife.jpg)
@@ -16,3 +16,6 @@ Unity Editor Script : Autosave On Play
 * 유니티 5.5 기준으로 동작하는 Script입니다. 타 버전에서의 동작은 보증하지 않습니다.
 * 물론 추가로 편집을 하셔도 됩니다
 * 팀프로젝트에서 에디터 스크립트를 마구 추가하면 다른 멤버들에게 피해를 줄 수 있으므로 버전관리에서 ignore은 꼭 해줍시다
+
+### Issue
+(v 0.1) 스크립트가 실행시마다 초기화돼서 사실상 AutoSave가 상시 on인 문제 발생 =_=;
